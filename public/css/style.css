@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  user-select: none;
+  background: linear-gradient(to bottom right, #79CBCA, #4B7CB4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 431px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin: 0 auto;
+  width: 431px;
+  text-align: center;
+}
+
+h1 {
+    background: url("https://i.ibb.co/Q9yv5Jk/flappy-bird-set.png") 0% 340px;
+    padding: 1.2rem 0;
+    margin: 0;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.score-container {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 6px;
+    background: #5EE270;
+}
+
+canvas {
+  display: block;
+}
